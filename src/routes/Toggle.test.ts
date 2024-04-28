@@ -4,10 +4,10 @@ import Toggle from "./Toggle.svelte";
 
 // Mock animate to bypass animation failure
 // Element.prototype.animate ??= vi.fn().mockReturnValue({
-// 	finished: Promise.resolve(),
-// 	cancel: vi.fn(),
-// 	startTime: null,
-// 	currentTime: null
+//   finished: Promise.resolve(),
+//   cancel: vi.fn(),
+//   startTime: null,
+//   currentTime: null,
 // });
 
 it('does not show "Hi" on initial render', async () => {
